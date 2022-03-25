@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Colors */
+/* .black{
+    background-color:#0e0e0e;
+}
+.greytext{
+    color: #adadad;
+}
+.whitetext{
+    color: white; 
+}*/
+
+
+
+/* Utilities */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    border: 0;
+    background-color: #fbe850;
+    padding: 0.75em 1.5em;
+    font-size: large;
+}
+.gapsmall{
+    gap: 1.5rem;
+}
+.gaplg{
+    gap: 4rem;
+}
+.contain{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.serif{
+    font-family: 'Merriweather', serif;
+}
+.sans-serif{
+        font-family: 'Lato', sans-serif;
+}
+
+.brand{
+    font-size: large;
+}
+
+h1,h2,.brand{
+    color: white;
+}
+p{
+    color: #adadad;
+}
+
+/* header */
+header{
+    background-color:#0e0e0e;
+    padding: 20px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: unset;
+}
+li a{
+    color: #adadad;
+    text-decoration: unset;
+    font-size: large;
+}
+#headline{
+    background-color: #0e0e0e;
+padding: 20px 0;
+}
+
+#headline h1{
+    font-size: 48pt;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 0.5em;
+}
+
+#headline p{
+    width: 80%;
+    line-height: 2em;
+    font-size: larger;
+}
+
+/* logos */
+#logos{
+    background-color: #0e0e0e;
+    padding: 30px 0;
+}
+
+/* features */
+#features{
+    background-color: #0e0e0e;
+    padding: 20px 0;
+}
+.feature{
+    flex: 1;
+}
+.feature img{
+    width: 100%;
+}
+.feature>*{
+    margin-bottom: 0.5em;
+}
+.feature p{
+    line-height: 1.5em;
+}
+.feature h2{
+    font-size: 27pt;
+    font-weight: 400;
+}
+
+/* about */
+#about{
+    background-color: #2e3038;
+    padding: 20px 0;
+}
+.column{
+    flex: 1;
+}
+.column>*{
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+.column h2{
+    font-size: 27pt;
+    font-weight: 400;
+    margin-top: 1.2em;
+}
+
+/* contact */
+#contact{
+    background-color:#0e0e0e;
+    padding: 20px 0;
+}
+#contact h2{
+    width: 45%;
+    font-size: 25pt;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+#contact p{
+    width: 45%;
+    line-height: 1.5em;
+}
+#contact button{
+    margin: 1em 0 2em 0;
+}
+
+footer{
+    background-color:#2e3038;
+    padding: 20px 0;
+}
+footer img{
+    margin: 3px 7px ;
+}
