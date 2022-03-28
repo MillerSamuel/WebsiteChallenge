@@ -59,6 +59,12 @@ h1,h2,.brand{
 p{
     color: #adadad;
 }
+button{
+    cursor: pointer;
+}
+ul li a:hover{
+    color: #fbe850;
+}
 
 /* header */
 header{
