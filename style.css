@@ -50,7 +50,7 @@
 }
 
 .brand{
-    font-size: large;
+    font-size: 18pt;
 }
 
 h1,h2,.brand{
@@ -64,6 +64,10 @@ button{
 }
 ul li a:hover{
     color: #fbe850;
+    font-size: 15pt;
+}
+button:hover{
+    transform: scale(1.05);
 }
 
 /* header */
